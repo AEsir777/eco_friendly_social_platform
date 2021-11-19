@@ -1,1 +1,1 @@
-# eco_friendly_community
+# a Eco Friendly Social Platform
