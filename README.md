@@ -1,1 +1,1 @@
-# a Eco Friendly Social Platform
+# an Eco Friendly Social Platform
