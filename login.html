@@ -5,20 +5,28 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="login.css" />
+    <link rel="stylesheet" type="text/css" href="iconfont.css"/>
+    <link rel="icon" href="pic/icon.jpg">
 </head>
 
 <body>
-    <!-- <img src="pic1.png" width =100% height=100%> -->
-    <div id="login">
+    <img id="login_bg" src="pic/login_bg.png" width=100% height=100%>
+    <div id="login-box">
         <h1>Login</h1>
         <form method="post">
-            <input type="text" required="required" placeholder="username"></input>
-            <input type="password" required="required" placeholder="password"></input>
+            <div class="input-box">
+                <i class="iconfont">&#xe609;</i>
+                <input type="text" required="required" placeholder="username"></input>
+            </div>
+            <div class="input-box">
+                <i class="iconfont">&#xe605;</i>
+                <input type="password" required="required" placeholder="password"></input>
+            </div>
             <a href="mainPage.html">
             <button class="but" type="button" onclick="buttonclick()">login</button>
             </a>
             <p class="change_link" style="text-align: center">
-            <span class="text" style="text-align: center" name="sentence" id="sentence">Don't have an account yet?<br></span>
+            <span class="q_text" style="text-align: center" name="sentence" id="sentence">Don't have an account yet?<br></span>
             <a href="index.html" class="to_signup">Go and sign up</a>
             </p>
         </form>
