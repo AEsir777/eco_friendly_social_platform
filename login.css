@@ -1,0 +1,89 @@
+﻿html{   
+    width: 100%;   
+    height: 100%;   
+    overflow: hidden;  
+    font-style: sans-serif;   
+   }
+#login_bg{
+    size: cover;
+    opacity: 80%;
+   }   
+body{   
+    width: 100%;   
+    height: 100%;   
+    font-family: 'Open Sans',sans-serif;   
+    margin: 0;   
+    text-align: center; 
+   }
+   
+#login-box{
+    box-shadow: 0 16px 22px 0 rgba(180, 199, 243, 0.5),
+                0 -4px 22px rgb(149, 207, 185) inset,
+                0 12px 8px rgba(255,255,255, 0.4) inset,
+                0 4px 10px 0 rgb(188, 152, 197) inset;
+    position: absolute;  
+    background: linear-gradient(to right, #f5f2de, #d0f7dd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 15px; 
+    top: 50%;   
+    left:50%;   
+    margin: -150px 0 0 -150px;   
+    width: 300px;   
+    height: 300px;   
+    color: #fff; 
+    text-align: center; 
+}
+
+#login-box h1{
+    color: rgb(0, 102, 80);   
+    text-shadow:0 0 px;   
+    letter-spacing: 1px;   
+    text-align: center;  
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0.67em 0; 
+}
+
+#login-box .input-box{
+	margin-top: 50px;
+}
+#login-box .input-box input{
+	border: none;
+	background: none;
+	border-bottom: #e69898 2px solid;
+	padding: 9px 10px;
+	outline: none;
+	color: #0c0808;
+}
+
+#login-box button{
+	line-height:30px;
+	margin-top: 30px;
+	width: 130px;
+	height: 30px;
+	border-radius:13px ;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(120deg, #a1b1d8 0%, #82d4e2 100%);
+	color: #fff;
+}
+
+#login-box button:hover{
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+#login-box .input-box i{
+	color: #e69898;
+}
+#login-box p{   
+    color: rgb(103, 167, 185);      
+    letter-spacing: 1px;   
+    text-align: center;   
+    font-size: 20px; 
+   }   
+.q_text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.to_signup{
+    color: rgb(228, 116, 116);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   }
+
