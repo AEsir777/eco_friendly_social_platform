@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'> -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <meta name="description" content="Welcome to the eco-friendly community!">
         <title>sign up page</title>
-        <!-- <link rel="stylesheet" href="styles.css"> -->
-        <link rel="icon" href="icon.jpg">
-        <style>
-        body {
-            font-family: 'Aclonica';
-            overflow: hidden;
-        }
-        </style>
+        <link rel="stylesheet" type="text/css" href="signup.css">
+        <link rel="icon" href="pic/icon.jpg">
     </head>
 
     <body>
-        <form method="post">
-            <input type="text" required="required" placeholder="username"></input>
-            <input type="password" required="required" placeholder="password"></input>
-            <input type="email" required="required" placeholder="email"></input>
-            <button class="but" type="submit">Create Account </button>
-            <p class="change_link" style="text-align: center">
-            <span class="text">Already have an account?<br></span>
-            <a href="login.html" class="to_login">Go and log in</a>
-            </p>
-        </form>
+        <img id="sign_up_bg" src="pic/sign_up_background.jpg" width=100% height=100%>
+        <div id="signup">
+            <h1>Sign up</h1>
+            <form method="post">
+                <input type="text" required="required" placeholder="username" name="u"></input>
+                <input type="password" required="required" placeholder="password" name="p"></input>
+                <input type="email" required="required" placeholder="email" name="e"></input>
+                <button class="create_button" type="submit">Create Account </button>
+                <p class="change_link" style="text-align: center">
+                <span class="acc_text">Already have an account?<br></span>
+                <a href="login.html" class="to_login">Go and log in</a>
+                </p>
+            </form>
+        </div>
     </body>
 </html>
